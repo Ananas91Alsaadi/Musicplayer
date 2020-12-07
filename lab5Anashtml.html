@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" href="lab5Anascss.css">
+	<script src="lab5Anasjs.js"></script>
+<title>Untitled Document</title>
+</head>
+<body onLoad="loadButtons(); loadsong(0)">
+	<div id="buttons">
+	
+	</div>
+	<button class="add" onClick="addnewsong()">Add a New Song</button>
+	<button class="add" onClick="formshhid()">Add a New Song (Form)</button>
+	<fieldset>
+		<legend>Add a new song</legend>
+		<input type="text" id="newartistnameform" placeholder="Artist Name">
+		<input type="text" id="newsongtitleform" placeholder="Song Title">
+		<input type="text" id="newimageURLform" placeholder="Image URL">
+		<input type="text" id="newembedcodeform" placeholder="Embed Code">
+		<button onClick="addform()">Add a New Song</button>
+	</fieldset>
+	<h1></h1>
+	<div id="mainsong">
+	</div>
+	<h2></h2>
+</body>
+</html>
